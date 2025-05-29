@@ -1,8 +1,10 @@
 {% extends "global/base.html" %}
+{% load static %}
 
 {% block texto %} HOME {% endblock texto %}
 
 {% block bodyContent %}
     {% include "global/partials/upload_files_button.html" %}
-    
+
+    <script src="{% static "global/script/uploadFiles.js" %}"></script>
 {% endblock bodyContent %}

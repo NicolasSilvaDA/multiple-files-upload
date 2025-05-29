@@ -7,4 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Upload</title>
     <link rel="stylesheet" href="{% static "global/css/style.css" %}" />
+    <script>
+        document.cookie = "csrftoken={{ csrf_token }}";
+    </script>
 </head>
